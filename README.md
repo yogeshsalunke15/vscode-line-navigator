@@ -21,7 +21,7 @@ You want to know how to add new custom command for line navaigation? Lets have s
 
     First of all clone the repo and do`npm install` at root level (where package.json resides).
 
-    For quick set up you can also watch the **video** available here:  https://www.youtube.com/watch?v=LirId-ID0To
+    For quick set up you can also watch the video available here:  https://www.youtube.com/watch?v=LirId-ID0To
 
 1. Add the new function inside **src/extension.ts** file like below sample.
 
@@ -47,7 +47,7 @@ You want to know how to add new custom command for line navaigation? Lets have s
 
 The initial set up of this extension is created fullfill the  line navigation use case , but off course this extension can be extended to any other use case you want to handle.
 
-Vscode Keyboard shortcuts for macOS can be found here: [keyboard shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf "Vscode Keyboard shortcuts for macOS")
+Vscode Keyboard shortcuts for macOS can be found here:  [keyboard shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
 Here are few sample vscode commands for which this extension can be extended.
 
