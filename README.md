@@ -32,7 +32,7 @@ You want to know how to add new custom command for line navaigation? Lets have s
    * Go to package.json and add commmand and keybinding of your choice inside **contributes** object.See below example
 
      ![1731095357973](image/README/1731095357973.png)
-4. Now its time to run the extension project to see any potential error. Run the project with command `npm run complie` and you should see the below output.
+4. Now its time to run the extension project to see any potential error. Run the project with command `npm run compile` and you should see the below output.
 
    ![1731095208484](image/README/1731095208484.png)
 5. we have add the new command successfully,  now its time to test it. Please follow below steps to test newly added command
