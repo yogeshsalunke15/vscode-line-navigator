@@ -6,7 +6,9 @@ Author: **Yogesh Salunke**
 
 ## Features
 
-This is the vscode extension to create your custom vscode editor command to go to specific line number within your code. The main use case of this extension is when you have to go to specific line number code multiple times. You can create as many custom commads as you want.
+This is the vscode extension to create your custom vscode editor command to go to specific line number within your code. The main use case of this extension is when you have to go to specific line number within code multiple times. 
+
+You can create as many custom commads as you want.
 
 For macos users there are two vscode commads already available, which off course can be adjusted / modified by Windows or Linux users based on their needs
 
