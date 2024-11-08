@@ -21,7 +21,7 @@ You want to know how to add new custom command for line navaigation? Lets have s
 
     First of all clone the repo and do`npm install` at root level (where package.json resides).
 
-    For quick set up you can also watch the**video** available here:  https://www.youtube.com/watch?v=LirId-ID0To
+    For quick set up you can also watch the **video** available here:  https://www.youtube.com/watch?v=LirId-ID0To
 
 1. Add the new function inside **src/extension.ts** file like below sample.
 
