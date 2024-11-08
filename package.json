@@ -1,0 +1,66 @@
+{
+  "name": "vscode-line-navigator",
+  "displayName": "vscode-line-navigator",
+  "description": "This is vscode extension, build to create custom vscode commands to navigate to specific line number ",
+  "version": "0.0.1",
+  "author": "Yogesh Salunke, yogeshsalunke15@gmail.com",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.goToLine51",
+        "title": "Go to Line 51"
+      },
+      {
+        "command": "extension.goToLine251",
+        "title": "Go to Line 251"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.goToLine51",
+        "key": "cmd+1",
+        "mac": "cmd+1",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "extension.goToLine251",
+        "key": "cmd+2",
+        "mac": "cmd+2",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.95.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.10.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.3",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
