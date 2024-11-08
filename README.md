@@ -6,7 +6,7 @@ Author: **Yogesh Salunke**
 
 ## Features
 
-This is the vscode extension to create your custom vscode editor command to go to specific line number within your code. The main use case of this extension is when you have to go to specific line number within code multiple times. 
+This is the vscode extension to create your custom vscode editor command to go to specific line number within your code. The main use case of this extension is when you have to go to specific line number within code multiple times.
 
 You can create as many custom commads as you want.
 
@@ -19,7 +19,9 @@ For macos users there are two vscode commads already available, which off course
 
 You want to know how to add new custom command for line navaigation? Lets have small tour with following steps:
 
-    First of all clone the repo and do`npm install` at root level (where package.json resides)
+    First of all clone the repo and do`npm install` at root level (where package.json resides).
+
+    For quick set up you can also watch the**video** available here:  https://www.youtube.com/watch?v=LirId-ID0To
 
 1. Add the new function inside **src/extension.ts** file like below sample.
 
@@ -32,7 +34,7 @@ You want to know how to add new custom command for line navaigation? Lets have s
    * Go to package.json and add commmand and keybinding of your choice inside **contributes** object.See below example
 
      ![1731095357973](image/README/1731095357973.png)
-4. Now its time to run the extension project to see any potential error. Run the project with command `npm run compile` 
+4. Now its time to run the extension project to see any potential error. Run the project with command `npm run compile`
    and you should see the below output.
 
    ![1731095208484](image/README/1731095208484.png)
